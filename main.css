@@ -81,6 +81,13 @@ a{
     text-align: center;
 }
 
+
+.hijo{
+    z-index: 1;
+    margin-top: -30rem;
+}
+
+
 .landing_page_image_container{
     border: none;
 }
