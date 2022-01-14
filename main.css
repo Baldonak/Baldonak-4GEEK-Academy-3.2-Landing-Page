@@ -80,3 +80,34 @@ a{
 .card-title {
     text-align: center;
 }
+
+.landing_page_image_container{
+    border: none;
+}
+
+.landing_page_image{
+    border-radius: 5% 15%;
+}
+.landing_page_form{
+    border: 0.5em solid blueviolet;
+    border-radius: 2em;
+}
+.footer{
+    border-radius: 1em;
+    background-color: rgb(208, 185, 230);
+}
+#icons_container{
+    display: flex;
+}
+    .icon{
+        height: 3em;
+        width: auto;
+        margin: auto;
+    }
+.text_footer{
+    font-weight: bold;
+}
+.contributions_container{
+    border-radius: 1em;
+    height: 90px;
+}
