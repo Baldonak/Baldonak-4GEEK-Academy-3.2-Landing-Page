@@ -1,0 +1,120 @@
+html, body{
+    width: 100%;
+    font-size: 1rem;
+    background-color: rgb(240, 238, 238);
+}
+
+/*#grad{
+    background-color: rgb(164, 59, 173);
+    background-image: linear-gradient(rgba(132, 101, 219, 0.747), rgb(119, 0, 255));
+    width: 100%;
+    height: 100%;
+}*/
+
+.gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,34,149,1) 0%, rgba(204,170,245,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.page-header{
+    font-size: 1.10rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.20rem;
+}
+
+#moveHome{
+    padding-left: 310px;
+}
+
+#moveBlog{
+    padding-left: 310px;
+}
+
+#moveServices{
+    padding-left: 310px;
+}
+
+#moveNosotros{
+    padding-left: 310px;
+}
+
+.styleNav{
+    border-radius: 20px;
+    background-color: rgb(244, 201, 248);
+    background-image: linear-gradient(rgba(208, 194, 248, 0.747), rgb(218, 192, 248));
+}
+
+.contCards{
+    padding-top: 120px;
+    margin-bottom: 0%;
+}
+
+#classBord{
+    border-radius: 30px;
+    padding: 6px;
+    margin-left: 40px;
+    padding-bottom: 0%;
+    border-width: 10px;
+    border-color: blueviolet;
+}
+
+#nosotros{
+    text-align: center;
+    color: brown;
+    background-color: cadetblue;
+}
+
+.iconServices{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-left: 80px;
+}
+
+
+.card-title {
+    text-align: center;
+}
+
+
+.hijo{
+    z-index: 1;
+    margin-top: -30rem;
+}
+
+
+.landing_page_image_container{
+    border: none;
+}
+
+.landing_page_image{
+    border-radius: 5% 15%;
+}
+.landing_page_form{
+    border: 0.5em solid blueviolet;
+    border-radius: 2em;
+}
+.footer{
+    border-radius: 1em;
+    background-color: rgb(208, 185, 230);
+}
+#icons_container{
+    display: flex;
+}
+    .icon{
+        height: 3em;
+        width: auto;
+        margin: auto;
+    }
+.text_footer{
+    font-weight: bold;
+}
+.contributions_container{
+    border-radius: 1em;
+    height: 90px;
+}
